@@ -1,20 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Jost:wght@300;400;500&display=swap');
 
 body {
-  background-color: #fef3f8;
-  color: #3d2c4e;
-  font-family: 'Quicksand', sans-serif;
+  background-color: #fdfaf6;
+  color: #4a3f3f;
+  font-family: 'Jost', sans-serif;
   margin: 0;
   padding: 24px;
 }
 
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 h1, h2 {
-  color: #7c3aed;
-  font-family: 'Fredoka', sans-serif;
+  color: #b76e79;
+  font-family: 'Playfair Display', serif;
 }
 
 header {
-  background-color: #e9d5ff;
+  background-color: #fdeef0;
   border-radius: 16px;
   padding: 24px;
   text-align: center;
@@ -22,10 +27,15 @@ header {
 
 section {
   background-color: #ffffff;
-  border: 2px solid #f0abfc;
+  border: 1px solid #f3d6d8;
   border-radius: 16px;
   margin-top: 24px;
   padding: 24px;
+}
+
+figure {
+  text-align: center;
+  margin: 24px 0;
 }
 
 img {
@@ -33,4 +43,10 @@ img {
   margin: 8px;
   max-width: 280px;
   width: 100%;
+}
+
+figcaption {
+  color: #8a6d6d;
+  font-style: italic;
+  margin-top: 8px;
 }
